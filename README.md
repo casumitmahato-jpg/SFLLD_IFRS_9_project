@@ -7,6 +7,7 @@ Below is the extracted content from the `ECL_Calculation_using_Logistic_regressi
 ---
 
 ## Page 1
+![Page 1](images/page_1.png)
 ### IND AS 109/IFRS 9 EXPECTED CREDIT LOSS (ECL) MODELLING
 
 **A Comprehensive End-to-End Methodology from Raw Freddie Mac Mortgage Cohorts to Systemic Life-Cycle Provisions under IFRS 9 and Ind AS 109**
@@ -20,6 +21,7 @@ Below is the extracted content from the `ECL_Calculation_using_Logistic_regressi
 ---
 
 ## Page 2
+![Page 2](images/page_2.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -60,6 +62,7 @@ Below is the extracted content from the `ECL_Calculation_using_Logistic_regressi
 ---
 
 ## Page 3
+![Page 3](images/page_3.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -71,6 +74,7 @@ This report presents an empirical, end-to-end implementation of the IFRS 9 and I
 ---
 
 ## Page 4
+![Page 4](images/page_4.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -93,6 +97,7 @@ A vintage curve analysis tracks cumulative default rates by months on book acros
 ---
 
 ## Page 5
+![Page 5](images/page_5.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -106,15 +111,6 @@ The cohort data is split into a Development Set (originations prior to 2021) and
 Weight of Evidence is a feature-engineering technique used to transform raw variables into stable, monotonic predictors for credit risk models. It converts each bin of a variable into the log-odds of good versus bad accounts, making the relationship with default risk clearer and more interpretable:
 
 $$WOE_i = \ln \left( \frac{\% \text{ Good}_i}{\% \text{ Bad}_i} \right)$$
-
-#### Vintage Curve and Weight of Evidence (WoE) Binned Variables
-![Vintage Curve](extracted_image_p5_Image1.png)
-
-<p align="center">
-  <img src="extracted_image_p5_Image2.png" width="32%" alt="Classic FICO Scorecard" />
-  <img src="extracted_image_p5_Image7.png" width="32%" alt="Original CLTV Scorecard" />
-  <img src="extracted_image_p5_Image8.png" width="32%" alt="Original DTI Scorecard" />
-</p>
 
 
 Benefits of the WOE transformation include:
@@ -145,6 +141,7 @@ Among the underwriting variables screened, original interest rate shows a relati
 ---
 
 ## Page 7
+![Page 7](images/page_7.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -165,6 +162,7 @@ $$L = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_k x_k$$
 ---
 
 ## Page 8
+![Page 8](images/page_8.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -194,6 +192,7 @@ $$\ln\left[ \frac{p}{1-p} \right] = -5.1124 - 1.5073 \cdot WOE(\text{FICO}) - 0.
 ---
 
 ## Page 9
+![Page 9](images/page_9.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -223,6 +222,7 @@ $$\text{logit}(PD_{\text{calibrated}}) = \text{logit}(PD_{\text{model}}) + k$$
 ---
 
 ## Page 10
+![Page 10](images/page_10.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -256,6 +256,7 @@ Log-shift calibration is typically used when model PDs are systematically higher
 ---
 
 ## Page 11
+![Page 11](images/page_11.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -271,6 +272,7 @@ Together, these measures demonstrate that the model ranks borrowers correctly, c
 ---
 
 ## Page 12
+![Page 12](images/page_12.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -288,6 +290,7 @@ The model shows stronger discriminatory performance on the Validation dataset (A
 ---
 
 ## Page 13
+![Page 13](images/page_13.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -301,6 +304,7 @@ $$PSI = \sum \left[ (A - E) \cdot \ln\left(\frac{A}{E}\right) \right]$$
 ---
 
 ## Page 14
+![Page 14](images/page_14.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -315,6 +319,7 @@ To capture cyclical economic effects, a standard normal systematic factor Z(t) i
 ---
 
 ## Page 15
+![Page 15](images/page_15.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -337,6 +342,7 @@ The PD term structure is built by forecasting the macro variables via AR(1) spec
 ---
 
 ## Page 16
+![Page 16](images/page_16.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -360,6 +366,7 @@ This approach ensures that the PD term structure is fully responsive to macroeco
 ---
 
 ## Page 17
+![Page 17](images/page_17.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -381,6 +388,7 @@ Survival analysis is then applied to convert conditional PDs into unconditional 
 ---
 
 ## Page 18
+![Page 18](images/page_18.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -404,6 +412,7 @@ To estimate property value at default, ELTV is used as a proxy, where the curren
 ---
 
 ## Page 19
+![Page 19](images/page_19.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -428,6 +437,7 @@ These four parameters — cure rate, property haircut, direct liquidation cost, 
 ---
 
 ## Page 20
+![Page 20](images/page_20.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -455,6 +465,7 @@ Staging results below are illustrated for a representative mortgage with a $1,00
 ---
 
 ## Page 21
+![Page 21](images/page_21.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -485,6 +496,7 @@ The complete period-by-period ECL term structure calculation for the representat
 ---
 
 ## Page 22
+![Page 22](images/page_22.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -508,6 +520,7 @@ The regression model linking the systematic factor Z(t) to the macro-variables h
 ---
 
 ## Page 23
+![Page 23](images/page_23.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -531,6 +544,7 @@ In the Indian financial system, Ind AS 109 has been implemented for Non-Banking 
 ---
 
 ## Page 24
+![Page 24](images/page_24.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -552,6 +566,7 @@ Based on the empirical modelling of the retail mortgage loan (EAD of Rs. 10,000,
 ---
 
 ## Page 25
+![Page 25](images/page_25.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
@@ -563,6 +578,7 @@ Based on the empirical modelling of the retail mortgage loan (EAD of Rs. 10,000,
 ---
 
 ## Page 26
+![Page 26](images/page_26.png)
 ### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
 **CA Sumit Mahato**
 
