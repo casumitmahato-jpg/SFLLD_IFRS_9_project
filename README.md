@@ -107,11 +107,15 @@ Weight of Evidence is a feature-engineering technique used to transform raw vari
 
 $$WOE_i = \ln \left( \frac{\% \text{ Good}_i}{\% \text{ Bad}_i} \right)$$
 
----
+#### Vintage Curve and Weight of Evidence (WoE) Binned Variables
+![Vintage Curve](extracted_image_p5_Image1.png)
 
-## Page 6
-### IFRS 9 / Ind AS 109 — Expected Credit Loss Modelling Framework
-**CA Sumit Mahato**
+<p align="center">
+  <img src="extracted_image_p5_Image2.png" width="32%" alt="Classic FICO Scorecard" />
+  <img src="extracted_image_p5_Image7.png" width="32%" alt="Original CLTV Scorecard" />
+  <img src="extracted_image_p5_Image8.png" width="32%" alt="Original DTI Scorecard" />
+</p>
+
 
 Benefits of the WOE transformation include:
 *   Enforces monotonicity, reducing model instability.
